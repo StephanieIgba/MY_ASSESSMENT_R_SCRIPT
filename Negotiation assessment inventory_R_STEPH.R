@@ -1,8 +1,8 @@
 library(dplyr)
 
 
-self_assessment <- data.frame(
-  Statement = c(
+Stephs_self_assessment <- data.frame(
+  Sentences = c(
     "Sacrifice_Position", 
     "Address_Problems_Directly", 
     "Winconvince", 
@@ -36,6 +36,6 @@ self_assessment <- data.frame(
   E = c(0, 3, 0, 2, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 0, 1, 0, 0, 4, 0, 0, 0, 0)
 )
 
-total_scores <- colSums(self_assessment[, 2:6])
+my_total_scores <- colSums(self_assessment[, c("A", "B", "C", "D", "E")])
 
-my_score <-  sum(self_assessment$A) 
+my_persona_nego_score <-  sum(self_assessment$A) 
