@@ -3,7 +3,7 @@ library(dplyr)
 
 Stephs_self_assessment <- data.frame(
   Sentences = c(
-    "Sacrifice_Position", 
+    "(Hi, can you read the last sentence, num twenty five :))Sacrifice_Position", 
     "Address_Problems_Directly", 
     "Winconvince", 
     "Share_Ideas", 
@@ -27,7 +27,7 @@ Stephs_self_assessment <- data.frame(
     "Twentytwo", 
     "Twentythree", 
     "Twentyfour", 
-    "Twentyfive"
+    "(sorry, i got too tired to type in the sentnces so i started using numbers)Twentyfive"
   ),
   A = c(0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 4, 0, 4, 3, 0, 0, 0, 0, 0, 0, 0, 4),
   B = c(0, 0, 3, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0),
